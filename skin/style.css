@@ -656,7 +656,7 @@ textarea {
 
 
    /* ---------------responsive --------------*/
-   @media screen and (max-width: 300px){
+   /* @media screen and (max-width: 300px){
     body{
   
       width: 100%;
@@ -695,7 +695,7 @@ textarea {
     /* .section {
       padding-left: -90px;
     } */
-  
+/*   
     .home{
       display:block;
       padding-top:2px
@@ -809,7 +809,8 @@ width:100%;
 max-width: 100%;
 
 }
-.about .about-content .personal-info .buttons {
+.a
+bout .about-content .personal-info .buttons {
   margin-top: 30px;
   margin-left: -45px;
 }
@@ -819,4 +820,156 @@ max-width: 100%;
 .send{
   margin-left:4px;
 }
+} */ 
+/* Responsive styles */
+@media screen and (max-width: 1024px) {
+  .section {
+    width: 90%;
+    left: 240px;
+    padding: 20px;
+  }
+
+  .aside {
+    width: 240px;
+  }
+
+  .aside .logo-toggler {
+    left: 250px;
+  }
+
+  .home .home-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .home .home-image {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  .about .about-content .personal-info, 
+  .about .about-content .skills {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .about .about-content .education, 
+  .about .about-content .experience {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    width: 95%;
+    left: 200px;
+    padding: 15px;
+  }
+
+  .aside {
+    width: 200px;
+  }
+
+  .aside .logo-toggler {
+    left: 220px;
+  }
+
+  .home .home-info, 
+  .home .home-image {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .about .about-content .personal-info, 
+  .about .about-content .skills {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .about .about-content .education, 
+  .about .about-content .experience {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .btn {
+    margin-left: 100px;
+  }
+
+  .portfolio-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section {
+    width: 100%;
+    left: 0;
+    padding: 10px;
+  }
+
+  .aside {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .aside .logo-toggler {
+    left: 0;
+  }
+
+  .home .home-info, 
+  .home .home-image {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .about .about-content .personal-info, 
+  .about .about-content .skills {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .about .about-content .education, 
+  .about .about-content .experience {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .portfolio-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .btn {
+    margin-left: 0;
+    padding: 10px 20px;
+  }
+
+  .about .about-content .buttons .btn {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .contact-info-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .contact-form .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .contact-form .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
